@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    margin-top: -20px;
+    font-family: 'Josefin Sans', sans-serif;  
+    padding: 0px;  
+    
+   
+}
+.conteiner-main{
+    width: 500px;
+    position: absolute;
+    z-index: 9999;
+}
+.imagen-familia{
+    height: 400px;
+    width: 400px;
+    float: right;
+    opacity: 0.5s;
+} 
+.imagen-familia img{
+    float: right;
+    width: 1600px;
+    height: 1100px;
+    opacity: 0.5s;
+    
+}
+
+.header-conteiner{
+    background-color: rgb(20, 75, 146);
+    width: 100%;
+    height: 120px;  
+}
+
+.header-conteiner h2{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+.search{
+    padding: 70px;
+    font-size: 30pt;
+    width: 500px;
+    position: relative;
+    z-index: 9999;
+}
+.search label h2{
+  font-family: 40pt;
+  margin-bottom: -20px;
+
+}
+.search input[type= text]{
+    font-size: 20pt;
+    width: 500px;
+    margin-top: 20px;
+}
+.search input[type=button]{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: rgb(20, 75, 146);
+    transition: background-color 400ms;
+    margin-top:20px ;
+    border-radius: 8px;
+}
+.search input[type=button]:hover{
+    background-color: rgb(16, 16, 175);
+}
+.dialogo{
+    width: 500px;
+    margin-top: -40px;
+    margin-left: 70px;
+    color: #6e6868;
+    position: relative;
+    z-index: 9999;
+    margin-top: 350px;
+}
+.cadastrar-familia {
+    margin-top: -10px;
+    width: 300px;
+    position: relative;
+    z-index: 9999;
+}
+.cadastrar-familia input[type=button]{
+    margin-left: 70px;
+    width: 160px;
+    height: 50px;
+    color: white;
+    background-color: rgb(20, 75, 146);
+    transition: background-color 400ms;
+    margin-top:20px ;
+    border-radius: 8px;
+    padding: 10px;
+}
+.cadastrar-familia input[type=button]:hover{
+    background-color: rgb(16, 16, 175);
+}
+
+
+
+

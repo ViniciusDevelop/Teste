@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Familia</title>
+    <link rel="stylesheet" href="../estilos/cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Familia</h1>
+    </header>
+
+
+       
+    <main>
+        <form action="">
+            <fieldset class= "field-grup">
+                    <legend>
+                    <h2>Identificação da Uindade Familia - MULHER</h2>
+                    </legend> 
+            
+                 
+                        <!--Nome da Mulher--> 
+                                        <div class="nome">
+                                            <h4>Nome Completo</h4>
+                                            <input type="text" nome="nomeMulher" placeholder="Nome Completo" required>           
+                                            <br>
+                                            
+                                        </div>
+                                    
+                        <!--Nome da Mae-->     
+                                        <div class="Nomemae">
+                                            <h4>Nome da mae</h4>
+                                            <input type="text" nome="nomedamae" placeholder="Nome Completo" required>                             
+                                        </div>                  
+                                    
+                       
+                    
+
+                   
+                                        <div class="civil">
+                                        <h4>Estado Civil</h4>
+                                            <select name="Estado Civil" id="situacao" required>
+                                                <option value="solteiro">Solteira</option>
+                                                <option value="casado">Casada</option>
+                                                <option value="Separado">Separada</option>
+                                                <option value="Desquitada">Desquitada</option>
+                                                <option value="Divorciada">Divorciada</option>
+                                                <option value="Viuva">Viúva</option>
+                                                <option value="Emancipada">Emancipada</option>               
+                                            </select>                                                                    
+                                        </div>
+                                      
+           
+                                        <div class="nacional">
+                                            <h4>Nacionalidade</h4>
+                                            <select name="nacionalidade" id="nascional" required>
+                                                <option value="Brasileria">Brasileira</option>
+                                                <option value="Estrangeira">Estrangeira</option>
+                                                <option value="Brasileira">Brasileira Naturalizada</option>                       
+                                            </select>  
+                                        
+                                        </div> 
+                                                 
+                   
+
+                                        <div class="idente">
+                                            <h4>Indentificação</h4>
+                                            <select name="Idantificacao" id="identificao" required>
+                                                <option value="carteira de trabalho">Carteira de Indentidade</option>
+                                                <option value="carteira Profissional">Carteira Profissional</option>
+                                                <option value="Reservista">Carteira Reservista</option>                       
+                                            </select>                          
+                                        </div>
+                            
+
+                                        <div class= "data">
+                                            <h4>Data de Nascimento</h4>
+                                            <input type="data" placeholder="dd/mm/aaaa" required>                                 
+                                        </div>
+                            
+
+                                        <div class="numero">
+                                            <h4>Numero</h4>                    
+                                            <input type="number" required>                       
+                                        </div>
+                            
+
+                                        <div class="cpf">
+                                            <h4>CPF</h4>                         
+                                            <input type="number" required>                          
+                                        </div>    
+                                
+                         
+                                        <div class="profis">
+                                                <h4>Profissão</h4>
+                                                <input type="text" name ="profissao" placeholder="Profissão" required>                                   
+                                        </div>    
+                         
+              
+                                        <div class="estudar">
+                                                <h4>Estuda ?</h4>
+                                                <select name="estuda" required>
+                                                    <option value="sim">Sim</option>
+                                                    <option value="Nao">Não</option>               
+                                                </select>                            
+                                        </div>
+                                
+                   
+
+                                        <div class="ecolaridade">
+                                                <label for="grauDEescolaridade">Grau de Instrução</label>
+                                                <h5>Ensino Fundamental</h5>
+                                                <select name="grauDEescolariade" id="" required>
+                                                        <option value="1-serie">1ª serie</option>
+                                                        <option value="2-serie">2ª serie</option>
+                                                        <option value="3-serie">3ª serie</option>
+                                                        <option value="4-serie">4ª serie</option>
+                                                        <option value="5-serie">5ª serie</option>
+                                                        <option value="6-serie">6ª serie</option>
+                                                        <option value="7-serie">7ª serie</option>
+                                                        <option value="8-serie">8ª serie</option>               
+                                                </select>
+                                                <h5>Ensino Medio</h5>
+                                                <select name="grauDEescolaridade" required>
+                                                    <option value="1-serie">1ª-serie</option>
+                                                    <option value="2-serie">2ª-serie</option>
+                                                    <option value="3-serie">3ª-serie</option>               
+                                                </select>                       
+                                        </div>                  
+                                    
+                 
+
+                                        <div class="associa">
+                                                <h5>Voce faz Parte da Associação</h5>
+                                                <select name="" id="" required>
+                                                    <option value="associado">Sim</option>
+                                                    <option value="associado">Nao</option>               
+                                                </select>                     
+                                        </div>                              
+            </fieldset>
+            
+             <fieldset class= "field-grup">
+                    <legend>
+                    <h2>Identificação da Uindade Familia - HOMEM</h2>
+                    </legend> 
+            
+                 
+                        <!--Nome da homem--> 
+                                        <div class="nome">
+                                            <h4>Nome Completo</h4>
+                                            <input type="text" nome="nomeMulher" placeholder="Nome Completo" required>           
+                                            <br>
+                                            
+                                        </div>
+                                    
+                        <!--Nome da Mae-->     
+                                        <div class="Nomemae">
+                                            <h4>Nome da mae</h4>
+                                            <input type="text" nome="nomedamae" placeholder="Nome Completo" required>                             
+                                        </div>                  
+                                    
+                       
+                    
+
+                   
+                                        <div class="civil">
+                                        <h4>Estado Civil</h4>
+                                            <select name="Estado Civil" id="situacao" required>
+                                                <option value="solteiro">Solteira</option>
+                                                <option value="casado">Casada</option>
+                                                <option value="Separado">Separada</option>
+                                                <option value="Desquitado">Desquitada</option>
+                                                <option value="Divorciado">Divorciada</option>
+                                                <option value="Viuvo">Viúva</option>
+                                                <option value="Emancipado">Emancipada</option>               
+                                            </select>                                                                    
+                                        </div>
+                                      
+           
+                                        <div class="nacional">
+                                            <h4>Nacionalidade</h4>
+                                            <select name="nacionalidade" id="nascional" required>
+                                                <option value="Brasilerio">Brasileira</option>
+                                                <option value="Estrangeiro">Estrangeira</option>
+                                                <option value="Brasileiro">Brasileira Naturalizada</option>                       
+                                            </select>  
+                                        
+                                        </div> 
+                                                 
+                   
+
+                                        <div class="idente" >
+                                            <h4>Indentificação</h4>
+                                            <select name="Idantificacao" id="identificao" required>
+                                                <option value="carteira de trabalho">Carteira de Indentidade</option>
+                                                <option value="carteira Profissional">Carteira Profissional</option>
+                                                <option value="Reservista">Carteira Reservista</option>                       
+                                            </select>                          
+                                        </div>
+                            
+
+                                        <div class= "data">
+                                            <h4>Data de Nascimento</h4>
+                                            <input type="data" placeholder="dd/mm/aaaa" required>                                 
+                                        </div>
+                            
+
+                                        <div class="numero" >
+                                            <h4>Numero</h4>                    
+                                            <input type="number" value='number' required>                       
+                                        </div>
+                            
+
+                                        <div class="cpf" >
+                                            <h4>CPF</h4>                         
+                                            <input type="number" required value='CPF'>                          
+                                        </div>    
+                                
+                         
+                                        <div class="profis" >
+                                                <h4>Profissão</h4>
+                                                <input type="text" name ="profissao" placeholder="Profissão" required>                                   
+                                        </div>    
+                         
+              
+                                        <div class="estudar" required>
+                                                <h4>Estuda ?</h4>
+                                                <select name="estuda" required>
+                                                    <option value="sim">Sim</option>
+                                                    <option value="Nao">Não</option>               
+                                                </select>                            
+                                        </div>
+                                
+                   
+
+                                        <div class="ecolaridade" >
+                                                <label for="grauDEescolaridade">Grau de Instrução</label>
+                                                <h5>Ensino Fundamental</h5>
+                                                <select name="grauDEescolariade" id="" required>
+                                                        <option value="1-serie">1ª serie</option>
+                                                        <option value="2-serie">2ª serie</option>
+                                                        <option value="3-serie">3ª serie</option>
+                                                        <option value="4-serie">4ª serie</option>
+                                                        <option value="5-serie">5ª serie</option>
+                                                        <option value="6-serie">6ª serie</option>
+                                                        <option value="7-serie">7ª serie</option>
+                                                        <option value="8-serie">8ª serie</option>               
+                                                </select>
+                                                <h5>Ensino Medio</h5>
+                                                <select name="grauDEescolaridade" required>
+                                                    <option value="1-serie">1ª-serie</option>
+                                                    <option value="2-serie">2ª-serie</option>
+                                                    <option value="3-serie">3ª-serie</option>               
+                                                </select>                       
+                                        </div>                  
+                                    
+                 
+
+                                        <div class="associa">
+                                                <label for="associado">Voce faz Parte da Associação</label>
+                                                <select name="" id="" required>
+                                                    <option value="associado">Sim</option>
+                                                    <option value="associado">Nao</option>               
+                                                </select>                     
+                                        </div>                              
+            </fieldset>
+         
+                 
+             <button type="submit">Enviar Formulario</button>       
+        </form>
+    </main>
+    
+</body>
+</html>

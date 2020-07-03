@@ -1,0 +1,139 @@
+html{
+    
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+ body{
+     margin: 0px;
+ } 
+ header{
+     margin-top: -60px;
+     height: 100px;
+     background-color: rgba(3, 3, 3, 0.836);
+ }
+
+
+header h1{
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: snow;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.teste-button{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(137, 56, 212, 0.863);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+    
+.box{
+    width: 500px;
+    height: 550px;
+    border-radius: 8px;
+    box-shadow: 10px 10px rgb(54, 13, 73);
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form{
+    margin-top: -60px;
+    width: 300px;
+    height: 400px;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+form .label1{
+    transition: .2s ease-in-out;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+form .input1{
+    font-size: 20pt;
+    border: 0;
+    margin-bottom: 40px;
+    border-bottom: 5px solid #9e9e9e;
+    outline: none;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+}
+
+.input1, .label1{
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+}
+.input2, .label2{
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+}
+.input1:valid,
+.input1:focus {
+  border-bottom: 5px solid #7726a6;  
+}
+.input2:valid,
+.input2:focus {
+  border-bottom: 5px solid #7726a6;  
+}
+
+.input1:valid + .label1,
+.input2:focus + .label2 {
+  color: #7726a6;
+  font-size: .8rem;
+  top: -30px;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+form .label2{
+    transition: .2s ease-in-out;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+}
+form .input2{
+    border: 0;
+    border-bottom: 5px solid #9e9e9e;
+    outline: none;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+}
+.input2,.label2{
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+.Enviar{
+    margin-top: 60px;
+    width: 150px;
+    height:60px;
+    border-radius: 8px;
+    background-color: rgb(83, 25, 117);
+    float: right;
+    color: white;
+    font-size: 20px;
+    transition: background-color 500ms;
+}
+.Enviar:hover{
+    
+    background-color:#6f249b ;
+}
